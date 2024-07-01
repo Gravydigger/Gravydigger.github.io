@@ -19,7 +19,7 @@
 		"astro": "4.5.12",
 		"astro-expressive-code": "^0.35.3",
 		"astro-icon": "^1.1.0",
-		"pnpm": "^9.0.6",
+		"pnpm": "^9.4.0",
 		"rehype-external-links": "^3.0.0",
 		"rehype-katex": "^7.0.0",
 		"remark-math": "^6.0.0",
