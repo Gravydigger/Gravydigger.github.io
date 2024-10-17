@@ -79,8 +79,8 @@ importers:
         specifier: ^7.18.0
         version: 7.18.0(eslint@8.57.0)(typescript@5.5.4)
       astro-eslint-parser:
-        specifier: ^1.0.2
-        version: 1.0.2(typescript@5.5.4)
+        specifier: ^1.0.3
+        version: 1.0.3(typescript@5.5.4)
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.40)
@@ -107,7 +107,7 @@ importers:
         version: 4.0.1(eslint@8.57.0)
       eslint-plugin-perfectionist:
         specifier: ^2.11.0
-        version: 2.11.0(astro-eslint-parser@1.0.2(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)
+        version: 2.11.0(astro-eslint-parser@1.0.3(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)
       eslint-plugin-regexp:
         specifier: ^2.6.0
         version: 2.6.0(eslint@8.57.0)
@@ -1263,8 +1263,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro-eslint-parser@1.0.2:
-    resolution: {integrity: sha512-8hJaCuqxObShWl2wEsnASqh/DbQ2O+S66m0Q3ctJlzBPEQ4pfGwwama3FCjZO3GDLQsjvn1T0v93Vxyu/+5fGw==}
+  astro-eslint-parser@1.0.3:
+    resolution: {integrity: sha512-AGsGgcg7Jg9UpyCDgvl/EkdYpe1oMkFdmC2Zl+KWneoieLCtQIFjmcY8yt41gcNx4mby0w8BBJQcBmPuf8UAoQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   astro-expressive-code@0.35.4:
@@ -5578,7 +5578,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-eslint-parser@1.0.2(typescript@5.5.4):
+  astro-eslint-parser@1.0.3(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.1
       '@typescript-eslint/scope-manager': 7.18.0
@@ -6451,14 +6451,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-perfectionist@2.11.0(astro-eslint-parser@1.0.2(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4):
+  eslint-plugin-perfectionist@2.11.0(astro-eslint-parser@1.0.3(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4):
     dependencies:
       '@typescript-eslint/utils': 7.18.0(eslint@8.57.0)(typescript@5.5.4)
       eslint: 8.57.0
       minimatch: 9.0.5
       natural-compare-lite: 1.4.0
     optionalDependencies:
-      astro-eslint-parser: 1.0.2(typescript@5.5.4)
+      astro-eslint-parser: 1.0.3(typescript@5.5.4)
     transitivePeerDependencies:
       - supports-color
       - typescript
